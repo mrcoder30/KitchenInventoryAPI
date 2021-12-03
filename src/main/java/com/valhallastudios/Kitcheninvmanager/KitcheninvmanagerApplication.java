@@ -1,4 +1,4 @@
-package com.valhallacoders.kitcheninventory;
+package com.valhallastudios.Kitcheninvmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.valhallacoders.kitcheninventory.model;
+package com.valhallastudios.Kitcheninvmanager.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

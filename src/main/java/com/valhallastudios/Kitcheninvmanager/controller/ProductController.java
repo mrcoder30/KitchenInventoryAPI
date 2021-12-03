@@ -1,4 +1,4 @@
-package com.valhallacoders.kitcheninventory.controller;
+package com.valhallastudios.Kitcheninvmanager.controller;
 
 
 import java.util.List;
@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.valhallastudios.Kitcheninvmanager.model.Product;
+import com.valhallastudios.Kitcheninvmanager.repository.ProductRepository;
+import com.valhallastudios.Kitcheninvmanager.service.ProductService;
 
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +27,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.valhallacoders.kitcheninventory.model.Product;
-import com.valhallacoders.kitcheninventory.repository.ProductRepository;
-import com.valhallacoders.kitcheninventory.service.ProductService;
 
 
 

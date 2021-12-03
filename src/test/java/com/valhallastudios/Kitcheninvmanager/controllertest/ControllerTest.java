@@ -18,7 +18,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.valhallacoders.kitcheninventory.model.Product;
+import com.valhallastudios.Kitcheninvmanager.model.Product;
 
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)

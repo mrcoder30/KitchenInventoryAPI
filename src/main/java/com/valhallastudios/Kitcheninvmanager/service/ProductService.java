@@ -1,4 +1,4 @@
-package com.valhallacoders.kitcheninventory.service;
+package com.valhallastudios.Kitcheninvmanager.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.valhallacoders.kitcheninventory.model.Product;
-import com.valhallacoders.kitcheninventory.repository.ProductRepository;
+import com.valhallastudios.Kitcheninvmanager.model.Product;
+import com.valhallastudios.Kitcheninvmanager.repository.ProductRepository;
 
 @Service
 public class ProductService {
