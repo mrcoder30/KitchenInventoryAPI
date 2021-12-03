@@ -28,6 +28,7 @@ import com.valhallacoders.kitcheninventory.repository.ProductRepository;
 import com.valhallacoders.kitcheninventory.service.ProductService;
 
 
+
 @RestController
 public class ProductController {
 
@@ -50,16 +51,25 @@ public class ProductController {
 			return new ResponseEntity<Product>(HttpStatus.NOT_FOUND);
 		}
 	
+	@PutMapping("/products/{id}")
+	public ResponseEntity<Product> update(@RequestBody Product product, @PathVariable Integer id) {
+		ResponseEntity<Product> response = new ResponseEntity<Product>(this.service.update(product, id),
+				HttpStatus.ACCEPTED); //
+		return response;
+	}	
+
 	@PostMapping("/products")
 	public ResponseEntity<Product> save(@RequestBody Product product) {
 		ResponseEntity<Product> response = new ResponseEntity<Product>(this.service.save(product), 
 				HttpStatus.CREATED);
 		return response;
 	}
-	
-
-	
-	
-	
+  
+  	@PutMapping("/products/{id}")
+	public ResponseEntity<Product> update(@RequestBody Product product, @PathVariable Integer id) {
+		ResponseEntity<Product> response = new ResponseEntity<Product>(this.service.update(product, id),
+				HttpStatus.ACCEPTED); //
+		return response;
+	}	
 
 }
