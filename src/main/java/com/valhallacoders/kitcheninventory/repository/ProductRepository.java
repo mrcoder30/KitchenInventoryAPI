@@ -1,9 +1,9 @@
-package com.valhallastudios.Kitcheninvmanager.repository;
+package com.valhallacoders.kitcheninventory.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.valhallastudios.kitcheninvmanager.model.Product;
- 
-public interface ProductRepository extends JpaRepository<Product, Integer> {
- 
-}
+import com.valhallacoders.kitcheninventory.model.Product;
+
+ public interface ProductRepository extends JpaRepository<Product, Integer> {
+	 
+ }
