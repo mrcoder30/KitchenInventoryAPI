@@ -1,5 +1,6 @@
 package com.valhallacoders.kitcheninventory.controller;
 
+
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -48,5 +49,17 @@ public class ProductController {
 		} catch (NoSuchElementException e) {
 			return new ResponseEntity<Product>(HttpStatus.NOT_FOUND);
 		}
+	
+	@PostMapping("/products")
+	public ResponseEntity<Product> save(@RequestBody Product product) {
+		ResponseEntity<Product> response = new ResponseEntity<Product>(this.service.save(product), 
+				HttpStatus.CREATED);
+		return response;
 	}
+	
+
+	
+	
+	
+
 }
