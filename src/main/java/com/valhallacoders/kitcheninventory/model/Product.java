@@ -1,10 +1,9 @@
-package com.valhallastudios.Kitcheninvmanager.model;
+package com.valhallacoders.kitcheninventory.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
 @Entity
 public class Product {
 	private Integer id;
@@ -12,13 +11,11 @@ public class Product {
 	private float price;
 	private float quantity;
 	
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer getId() {
 		return id;
 	}
-
 	public void setId(Integer id) {
 		this.id = id;
 	}
@@ -58,5 +55,4 @@ public class Product {
 	public Product() {
 
 	}
-
 }
