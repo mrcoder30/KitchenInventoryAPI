@@ -20,4 +20,5 @@ Screenshot 6: Delete a single product
 screenshot 7: Delete all products
 ![deletedallproducts](https://user-images.githubusercontent.com/81887091/144616449-d61c0baa-3e57-4132-b1a4-f58d965f6dda.PNG)
 screenshot 8: Read all products to show all items have been deleted from database
-![retreievedallproductstoshowitemdeleted](https://user-images.githubusercontent.com/81887091/144616526-435c01e2-af3f-46e7-93fb-68869e611322.PNG)
+![deletedallproducts](https://user-images.githubusercontent.com/81887091/144617396-77182680-cd5e-4c13-b43d-67113e188cb7.PNG)
+![reademptydatabase](https://user-images.githubusercontent.com/81887091/144617431-5bf736f5-b45c-4da0-94fc-5ed0c0e707af.PNG)
